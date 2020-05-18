@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/style.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
+    <title>SIMTEC 2019</title>
+    <link rel="shortcut icon" href="img/icone.png">
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+      
+        <div class="container">
+        
+            <a class="navbar-brand h1 mb-0" href="Index.html">
+                <img src="img/logo3.png" width="325" height="79"> 
+
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSite">
+
+                <ul class="navbar-nav mr-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="inscricoes.html">Inscrições</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="programacao.pdf" target="blank">Programação</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Submissões</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">Informações</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" data-toggle="modal" data-target="#contatosModal">Contatos</a>
+                            <a class="dropdown-item" data-toggle="modal" data-target="#hospedagemModal">Hospedagem</a>
+                            <a class="dropdown-item" data-toggle="modal" data-target="#organizacaoModal">Organização</a>
+                            <a class="dropdown-item" href="https://www.even3.com.br/simtec2018/" target="blank">Edições Anteriores</a> 
+                        </div>
+                    </li>
+
+                </ul>
+                
+                <ul class="navbar-nav ml-auto">
+                
+                    <li class="nav-item dropdown">
+                    
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">
+                            Social
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="https://www.facebook.com/simtec.alec.7" target="blank"><i class="fa fa-facebook-square"></i> Facebook</a>
+                            <a class="dropdown-item" href="https://www.instagram.com/simtec2018/?hl=pt-br" target="blank"><i class="fa fa-instagram"></i> Instagram</a>
+                        </div> 
+                        
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="btn btn-secondary" type="Submit" data-toggle="modal" data-target="#siteModal">Fazer login</a>
+                    </li>
+                </ul>
+
+            </div>
+        
+        </div>
+        
+    </nav>
+  
+        <div id="carouselSite" class="carousel slide" data-ride="carousel">
+            
+            <ol class="carousel-indicators">
+                <li data-target="#carouselSite" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselSite" data-slide-to="1"></li>
+            </ol>
+            
+            <div class="carousel-inner">
+        
+                <div class="carousel-item active">
+        
+                    <img src="img/logo4.png" class="img-fluid d-block w-100">
+                    <div class="carousel-caption d-none d-md-block text-dark"  > 
+                        <a href="inscricoes.html" class="text-danger" target="blank.text-danger"><h4>Inscrições até dia XX/XX.Clique aqui para fazer a sua.</h4></a>
+                    
+                    </div>
+                </div>
+                 <div class="carousel-item">
+        
+                    <img src="img/logo4.png" class="img-fluid d-block w-100">
+                    <div class="carousel-caption d-none d-md-block text-dark"> 
+                        <a href="submissoes.html" class="text-danger" target="blank".text-danger><h4>Submissões até dia XX/XX. Clique aqui para submeter seu trabalho.</h4></a>
+                    
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    
+                    <img src="img/simtec-201822.jpg" class="img-fluid d-block w-100">
+                    <div class="carousel-caption d-none d-md-block"> 
+                        <h3>SIMTEC 2018</h3>
+                        <a href="https://www.flickr.com/photos/161106065@N08/albums" class="text-light" target="blank"><h4>Confira as fotos do I Simpósio de Tecnologia da Informação. Clique aqui.</h4></a>
+                    </div>
+                </div>        
+            </div>
+            
+            <div>
+                <a class="carousel-control-prev" href="#carouselSite" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselSite" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                    <span class="sr-only">Avançar</span>
+                </a>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="jumbotron jumbotron-fluid mt-2">
+        
+        <div class="container">
+            
+            <div class="row">
+                
+                <div class="col-12 text-center">
+                    
+                    <h1 class="display-4">II SIMTEC </h1>
+                    <p class="lead">Simpósio de Tecnologia da Informação</p>
+                    <hr>
+
+                </div> 
+
+            </div>
+
+            <div class="row">
+                
+                <div class="col-12">
+                    
+                    <ul class="nav nav-pills justify-content-center" id="pills-nav" role="tablist">
+                        
+                        <li class="nav-item">
+                            <a class="nav-link active" id="nav-pills-01" data-toggle="pill" href="#nav-item-01">Informações do evento</a>                                                    
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" id="nav-pills-02" data-toggle="pill" href="#nav-item-02">Programação</a>                                                    
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" id="nav-pills-03" data-toggle="pill" href="#nav-item-03">Local e vagas</a>                                                    
+                        </li>
+
+                    </ul>
+
+                    <div class="tab-content" id="nav-pills-content">
+                        
+                        <div class="tab-pane fade show active" id="nav-item-01" role="tabpanel">
+                            <div class="row">
+                                <div class="col-sm-6 mt-2">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="xxxxx"></iframe>
+                                        
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6 mt-2">
+                                    <h4>Sobre o SIMTEC</h4>
+                                    <p class="text-justify">O SIMTEC é um evento organizado pela Coordenação de Informática do IFPA Campus Tucuruí, com o intuito de promover a socialização de conhecimento e a interação entre estudantes e profissionais da área de Tecnologia da Informação de Tucuruí e região. Neste ano, o evento tem como tema "XXXXXXXXXX" e serão discutidas XXXXXXXXXXXXX.</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="tab-pane fade" id="nav-item-02" role="tabpanel">
+                            
+                            <h4>Programação</h4>
+                            <p class="text-justify">A programação do evento contém minicursos, torneio de programação, palestras com profissionais e empreendedores da região, mesa redonda e apresentações de artigos e protótipos, totalizando uma carga horária de 20 horas.</p>
+                            <a class="btn btn-primary" type="button" href="programacao.pdf" role="button">Saiba mais</a>        
+                        </div>
+
+                        <div class="tab-pane fade" id="nav-item-03" role="tabpanel">
+                            
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <h4>Local e Vagas</h4> 
+                                    <p class="text-justify">O evento será realizado no campus do IFPA em Tucuruí, localizado na Av. Brasília, s/n. Vila Permanente. São oferecidas XXX vagas. Confira nossa programação e faça sua inscrição. Estamos esperando por você!</p>
+                                    <img src="img/ifpa-tucurui2.jpg" width="550" height="350">
+                                </div>
+
+                                <div class="col-sm-6 col align-self-center">
+                                    <div class="row"></div>
+                                    <div class="embed-responsive embed-responsive-4by3 mt-2 ">
+                                        <iframe width="600" height="450" frameborder="0" style="border:0 " src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJr3nNRhGLv5IRsQgTiOf7k5Y&key=AIzaSyATlGHfPGLKprKASXa8cB4I0tVuuJZKBV4" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                                
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+    <div class="container" style="margin: 0; padding: 0;">
+            <h1> Contagem regressiva</h1>
+            <div id="clock"></div>   
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous">
+    </script>
+    <script src="countdown.js"></script>
+    <script type="text/javascript">
+    $('#clock').countdown('2019/11/10', function (event) {
+        var $this = $(this).html (event.strftime(''
+            +'<div><span>%w</span><span>Sem</span></div>'
+            +'<div><span>%d</span><span>Dias</span></div>'
+            +'<div><span>%H</span><span>Hrs</span></div>'
+            +'<div><span>%M</span><span>Min</span></div>'
+            +'<div><span>%S</span><span>Sec</span></div>'
+            ))
+        })
+  </script>   
+    </div>
+    <div class="container">
+    <div class="row mb-5">
+        
+        <div class="col-12 mb-3"><hr></div>
+        
+        <div class="col-sm-4 mb-5 text-justify">
+            <h3>SIMTEC 2019</h3>
+            <p>Realizado pelo Campus Tucuruí do IFPA, o II Simpósio de Tecnologia da Informação busca disseminar e compartilhar conhecimentos e estudos realizados na região</p>
+        </div>
+
+        <div class="col-sm-4">
+            <div class="list-group text-center">
+                <h3>Menu</h3>
+                <a class="list-group-item list-group-item-action list-group-item-primary" href="inscricoes.html">Inscrições</a>
+                <a class="list-group-item list-group-item-action list-group-item-primary" href="submissoes.html">Submissões</a>
+                <a class="list-group-item list-group-item-action list-group-item-primary" href="programacao.pdf" target="blank">Programação</a>
+            </div>
+        </div>
+
+        <div class="col-sm-2">
+            <div class="btn-group-vertical">
+                <h3>Social</h3>
+                <a href="" class="btn btn-primary" mt-2><i class="fa fa-facebook-square"></i>Facebook</a>
+                <a href="" class="btn btn-warning" mt-2><i class="fa fa-instagram"></i>Instagram</a>
+            </div>
+        </div>
+
+        <div class="col-sm-2">
+            <h3>Realização</h3>
+            <a href="http://tucurui.ifpa.edu.br/" target="blank"> 
+                <img src="img/logoif2.jpg" width="112" height="150">  
+        </div>
+
+    </div> 
+    </div>
+    
+    <div class="modal fade" id="siteModal" tabindex="-1" role="dialog"> 
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                
+                <div class="modal-header text-center">
+                    <h5 class="modal-title">Fazer Login</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>                        
+                <div class="modal-body">
+                    <form>
+                        <div class="input-group">            
+                            <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                            <input id="email" type="text" class="form-control" name="email" placeholder="Email">
+                        </div>
+                        <div class="input-group mt-2">
+                            <span class="input-group-addon"><i class="fa fa-unlock"></i></span>
+                            <input id="password" type="password" class="form-control" name="password" placeholder="Senha">
+                        </div>
+                    </form>
+                    <a href="#"><p class="text-right mt-2">Esqueci a senha</p></a>
+                </div>
+
+                <div class="modal-footer">
+                    <a type="button" class="btn btn-secondary" href="#">Entrar</a>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Sair</button>
+                </div>
+
+            </div>
+        </div>    
+    </div>
+
+    <div class="modal fade" id="organizacaoModal" tabindex="-1" role="dialog"> 
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Comissão Organizadora</h3>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <h5>Comissão geral</h5>
+                        <p>Prof. Alex Santos de Oliveira</p> 
+                        <p>Prof. Anderson Walber de Jesus Barbosa</p>
+                        <p>Profª. Lilian Coelho de Freitas</p>
+                        <h5>Comissão Científica</h5>
+                        <p>Prof. Alex Santos de Oliveira</p> 
+                        <p>Profª. Lilian Coelho de Freitas</p>
+                        <h5>Comissão de Minicursos e Palestras</h5>
+                        <p>Prof. Alex Santos de Oliveira</p> 
+                        <p>Tânia Lobo Viana</p> 
+                        <h5>Comissão do Torneio de Programação</h5>
+                        <p>Tânia Lobo Viana</p> 
+                        <h5>Website</h5>
+                        <p>Abigail Silva de Moura</p> 
+                        <p>Victória Cardoso dos Santos</p>
+                        <p>Gabriel da Silva Sousa</p>
+                        <p>Leonardo Braga Baia</p>
+                        <h5>Discentes</h5>
+                        <p>Discentes do Curso de Tecnologia em Redes de Computadores e Técnico em Manutenção e Suporte em Informática</p>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="hospedagemModal" tabindex="-1" role="dialog"> 
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Hospedagem</h3>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>            
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <h5>Hotel Rio</h5>
+                        <p>Endereço: Av. Raimundo Veridiano Cardoso, 1152 - Santa Monica, Tucuruí - PA, 68456-062.</p> 
+                        <p>Contato: (94) 98127-8180</p>
+                        <h5>Hotel Sevilha</h5>
+                        <p>Endereço: Avenida Raimundo Veridiano Cardoso, 1155 - Bela Vista, Tucuruí - PA, 68456-760.</p> 
+                        <p>Contato: (94) 3787-1155</p>
+                        <h5>Hotel Porto Rico</h5>
+                        <p>Endereço: Av. Cd, 360 - Jardim Marilucy, Tucuruí - PA, 68459-370</p> 
+                        <p>Contato: (94) 3787-6254</p>                    
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+     <div class="modal fade" id="contatosModal" tabindex="-1" role="dialog"> 
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Contatos</h3>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>            
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <a href="https://www.facebook.com/simtec.alec.7" target="blank"><i class="fa fa-facebook-square"></i>Facebook</a>
+                            <div class="container text-center">
+                        <a href="https://www.instagram.com/simtec2018/?hl=pt-br" target="blank"><i class="fa fa-instagram"></i>Instagram</a> 
+                        <p>E-mail:simtec2019@gmail.com</p>                
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="modal-footer">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+     <div class="col-sm-4 mb-5 text-justify">
+            
+        </div>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  </body>
+</html>
