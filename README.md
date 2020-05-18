@@ -5,3 +5,4 @@ Desenvolvido por:
 Abigail Silva de Moura
 Gabriel da Silva Sousa
 Leonardo Braga Baia
+Victória Cardoso dos Santos
